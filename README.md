@@ -22,3 +22,5 @@ Things I have learned by completing this project:
 * How to analyze various learning performance plots for variance and bias.
 * How to determine the best-guess model for predictions from unseen data.
 * How to evaluate a model's performance on unseen data using previous data.
+# Deciding Features to be used for Training the Model
+I created a Heatmap to find the correlation between different features and labels.
