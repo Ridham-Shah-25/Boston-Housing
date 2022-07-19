@@ -31,4 +31,10 @@ I created a Heatmap to find the correlation between different features and label
 5. LSTAT- % lower status of the population
 
 Target Variable-MEDV- Median value of owner-occupied homes in $1000's
-        
+
+* Conclusion:We have implemented 3 models for House Price Prediction-Linear Regression,SVM Regressor,Random Forest Regressor.Their R2 Scores are-
+
+Linear Regression-0.7417818906824027
+SVM Regressor-0.8518907744570283
+Random Forest Regressor-0.8733895298130578
+We can see that Random Forest Regressor Model has the highest R2 score and thus provides the highest accuracy for Boston House Prediction for the given features.
