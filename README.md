@@ -23,4 +23,12 @@ Things I have learned by completing this project:
 * How to determine the best-guess model for predictions from unseen data.
 * How to evaluate a model's performance on unseen data using previous data.
 # Deciding Features to be used for Training the Model
-I created a Heatmap to find the correlation between different features and labels.
+I created a Heatmap to find the correlation between different features and labels.Heatmap is a graphical representation of data using colors to visualize the value of the matrix.After seeing the correlation between MEDV and different features and taking inot account Multicollinearity,I arrived at the conclusion of using the following features for model testing and training-
+1. NOX- nitric oxides concentration (parts per 10 million)
+2. RM- average number of rooms per dwelling
+3. DIS- weighted distances to five Boston employment centres
+4. PTRATIO- pupil-teacher ratio by town
+5. LSTAT- % lower status of the population
+
+Target Variable-MEDV- Median value of owner-occupied homes in $1000's
+        
