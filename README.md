@@ -39,4 +39,4 @@ We have implemented 3 models for House Price Prediction-Linear Regression,SVM Re
 * SVM Regressor-85.18%
 * Random Forest Regressor-87.33%
 
-We can see that Random Forest Regressor Model has the highest R2 score and thus provides the highest accuracy for Boston House Prediction for the given features.
+We can see that Random Forest Regressor Model has the highest accuracy for Boston House Prediction for the given features.
