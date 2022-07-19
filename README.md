@@ -1,6 +1,6 @@
 # Boston-Housing
 # Overview of Efforts
-In this project, I have applied basic machine learning concepts on data collected for housing prices in Boston, Massachusetts area to predict the selling price of a new home.I Have-
+In this project, We have applied basic machine learning concepts on data collected for housing prices in Boston, Massachusetts area to predict the selling price of a new home.We Have-
 * Imported The Relevant Libraries
 * Created a Pandas Dataframe,Explored The Dataset and added another value to store Target attribute in it
 * Created a Heatmap to find correlation between different features and labels
@@ -33,10 +33,10 @@ I created a Heatmap to find the correlation between different features and label
 Target Variable-MEDV- Median value of owner-occupied homes in $1000's
 
 # Conclusion
-We have implemented 3 models for House Price Prediction-Linear Regression,SVM Regressor,Random Forest Regressor.Their R2 Scores are-
+We have implemented 3 models for House Price Prediction-Linear Regression,SVM Regressor,Random Forest Regressor.Their Accuracies are-
 
-* Linear Regression-0.7417818906824027
-* SVM Regressor-0.8518907744570283
-* Random Forest Regressor-0.8733895298130578
+* Linear Regression-74.17%
+* SVM Regressor-85.18%
+* Random Forest Regressor-87.33%
 
 We can see that Random Forest Regressor Model has the highest R2 score and thus provides the highest accuracy for Boston House Prediction for the given features.
