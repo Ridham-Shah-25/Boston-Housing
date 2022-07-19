@@ -23,7 +23,7 @@ Things I have learned by completing this project:
 * How to determine the best-guess model for predictions from unseen data.
 * How to evaluate a model's performance on unseen data using previous data.
 # Deciding Features to be used for Training the Model
-I created a Heatmap to find the correlation between different features and labels.Heatmap is a graphical representation of data using colors to visualize the value of the matrix.After seeing the correlation between MEDV and different features and taking inot account Multicollinearity,I arrived at the conclusion of using the following features for model testing and training-
+I created a Heatmap to find the correlation between different features and labels.Heatmap is a graphical representation of data using colors to visualize the value of the matrix.After seeing the correlation between MEDV and different features and taking into account Multicollinearity(Multicollinearity is a statistical concept where several independent variables in a model are correlated.Removing Multicollinearity is an important step during feature selection process),I arrived at the conclusion of using the following features for model testing and training-
 1. NOX- nitric oxides concentration (parts per 10 million)
 2. RM- average number of rooms per dwelling
 3. DIS- weighted distances to five Boston employment centres
